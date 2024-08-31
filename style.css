@@ -1,0 +1,69 @@
+@font-face {
+  font-family: font;
+  src: url(./assets/fonts/static/SpaceGrotesk-Regular.ttf);
+}
+/* ===== color sectio ===== */
+:root {
+  --prmary-color: #b9ff66 !important;
+  --secondary-color: #191a23 !important;
+}
+.navbar-nav .nav-item {
+  margin-right: 40px !important;
+}
+.navbar-nav .nav-item .nav-link {
+  font-family: font !important;
+  color: var(--secondary-color) !important;
+}
+.btn {
+  border: 1px solid var(--prmary-color) !important;
+  padding: 10px 20px !important;
+}
+/* ===== hero_section ===== */
+.hero_section {
+  padding-top: 70px !important;
+}
+.hero_heading {
+  padding-top: 50px !important;
+}
+.hero_heading h1 {
+  font-family: font !important;
+  color: var(--secondary-color) !important;
+  font-weight: 500 !important;
+}
+.main_paragraph {
+  padding-top: 10px !important;
+}
+.main_paragraph p {
+  font-size: 16px !important;
+  font-family: font !important;
+  color: var(--secondary-color) !important;
+}
+.hero_main_button {
+  padding: 10px 20px !important;
+  background-color: var(--secondary-color) !important;
+  color: #ffff !important;
+}
+.hero_images img {
+  width: 100% !important;
+  height: auto !important;
+}
+/* ===== images section ===== */
+.img_section {
+  padding-top: 40px !important;
+}
+/* ===== services section ===== */
+.services_btn {
+  padding-top: 50px !important;
+}
+.services_btn .btn_servicse {
+  padding: 20px 50px !important;
+  background-color: var(--prmary-color) !important;
+  opacity: 1  !important;
+  color: var(--secondary-color) !important;
+  border: none !important;
+  font-family: font !important;
+  font-size: 16px !important;
+}
+.servics_text {
+  padding-top: 50px !important;
+}
