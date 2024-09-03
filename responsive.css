@@ -78,8 +78,47 @@
         width: 100% !important;
         height: auto !important;
     }
+
     .card_section_mobile_view {
         padding-top: 15px !important;
+    }
+
+    /* ===== working section ===== */
+    .conatact_btn .btn_contact {
+        width: 100% !important;
+        height: 100px !important;
+
+    }
+
+    .scontact_text {
+        padding-top: 20px !important;
+    }
+
+    .scontact_text p {
+        width: 100% !important;
+        margin-left: 0px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    /* ===== acccording section ===== */
+    .according_section .accordion-item {
+        width: 100% !important;
+        /* height: 98px !important; */
+        border-radius: 45px !important;
+        padding: 0px 20px 0px 20px !important;
+    }
+
+    .accordion-button .btn_number {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
+
+    .accordion-button .btn_text {
+        font-size: 18px !important;
+        line-height: 22px !important;
     }
 
 }
@@ -96,6 +135,24 @@
     .main_card {
         margin-top: 20px !important;
     }
+
+    /* ===== working section ===== */
+    .conatact_btn .btn_contact {
+        width: 100% !important;
+
+    }
+
+    .scontact_text {
+        padding-top: 20px !important;
+    }
+
+    .scontact_text p {
+        width: 100% !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
 }
 
 /* ===== for loptop screen ===== */
@@ -111,6 +168,30 @@
     .main_card {
         margin-top: 20px !important;
     }
+
+    /* ==== services section ===== */
+    .services_btn .btn_servicse {
+        width: 100% !important;
+    }
+
+    /* ===== working section ===== */
+
+    .conatact_btn .btn_contact {
+        width: 100% !important;
+
+    }
+
+    .scontact_text {
+        padding-top: 20px !important;
+    }
+
+    .scontact_text p {
+        width: 100% !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
 }
 
 /* ===== for large screen ===== */
@@ -120,7 +201,20 @@
     .servics_text {
         margin-left: 50px !important;
     }
+
+    /* ===== working section ===== */
+
+    .scontact_text p {
+        margin-left: 120px !important;
+        margin-left: 0px !important;
+    }
 }
 
 /* ===== for large large screen ===== */
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+
+    /* ===== conatct section ===== */
+    /* .scontact_text p {
+        margin-left: 50px !important;
+    } */
+}
