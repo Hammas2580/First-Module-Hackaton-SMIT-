@@ -120,10 +120,28 @@
         font-size: 18px !important;
         line-height: 22px !important;
     }
+
     /* ===== conatact section ===== */
     .contact_text {
         margin-left: 0px !important;
         text-align: center !important;
+    }
+
+    /* ==== form section ===== */
+    .form_images {
+        display: none !important;
+    }
+
+    .form_div {
+        padding: 40px 40px 40px 40px !important;
+    }
+
+    .form-control {
+        width: 100% !important;
+    }
+    /* ===== mobile view btn ====== */
+    .mobile_view_form_btn{
+        margin-top: 20px !important;
     }
 
 }
@@ -157,6 +175,39 @@
         font-weight: 400 !important;
         font-size: 18px !important;
         line-height: 24px !important;
+    }
+
+    /* ===== form section ===== */
+    .form_images {
+        display: none !important;
+    }
+
+    .form_section {
+        width: 100% !important;
+    }
+
+    .form_btn1 {
+        display: block !important;
+    }
+
+    .form_btn {
+        display: none !important;
+    }
+
+    .form_btn1 .form_btn_submit {
+        width: 100% !important;
+        border-radius: 14px !important;
+        padding: 20px 35px 20px 35px !important;
+        background-color: var(--black-color) !important;
+        color: var(--white-color) !important;
+        font-family: font !important;
+        font-weight: 400 !important;
+        line-height: 28px !important;
+        font-size: 20px !important;
+    }
+     /* ===== mobile view btn ====== */
+     .mobile_view_form_btn{
+        margin-top: 20px !important;
     }
 }
 
@@ -197,12 +248,19 @@
         font-size: 20px !important;
         line-height: 24px !important;
     }
+
     /* ===== conatct section ===== */
     .conatact_btn .btn_servicse {
         width: 100% !important;
     }
+
     .contact_text {
         padding-top: 20px !important;
+    }
+
+    /* ===== form section ===== */
+    .form_section {
+        width: 100% !important;
     }
 }
 
@@ -220,6 +278,7 @@
         margin-left: 120px !important;
         margin-left: 0px !important;
     }
+
     /* ===== contact section ===== */
     .contact_text {
         /* margin-left: 100px !important; */

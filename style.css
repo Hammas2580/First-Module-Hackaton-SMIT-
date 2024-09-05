@@ -383,3 +383,79 @@ header {
   font-size: 18px !important;
   line-height: 22px !important;
 }
+
+/* ===== form section ====== */
+.form_section {
+  padding-top: 50px !important;
+}
+
+.form_div {
+  background-color: var(--white-color) !important;
+  border-radius: 45px !important;
+  padding: 60px 100px 80px 100px !important;
+}
+
+.form_icon .form-check-input {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 29px !important;
+  border: 1px solid var(--black-color) !important;
+  color: var(--white-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+.form_icon .form-check-label {
+  font-family: font !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  color: var(--black-color) !important;
+  margin-top: 2px !important;
+  margin-left: 20px !important;
+}
+
+.form-label {
+  font-family: font !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  color: var(--black-color) !important;
+}
+
+.form-control {
+  border-radius: 14px !important;
+  border: 1px solid var(--black-color) !important;
+  padding: 18px 30px 18px 30px !important;
+  color: #ffff !important;
+}
+
+.form_btn {
+  margin-top: 20px !important;
+}
+
+.form_btn .form_btn_submit {
+  width: 100% !important;
+  border-radius: 14px !important;
+  padding: 20px 35px 20px 35px !important;
+  background-color: var(--black-color) !important;
+  color: var(--white-color) !important;
+  font-family: font !important;
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  font-size: 20px !important;
+}
+
+.form_images {
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+}
+
+.form_images img {
+  width: 100% !important;
+  margin-left: 250px !important;
+}
+
+.form_btn1 {
+  display: none !important;
+}
