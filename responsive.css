@@ -128,6 +128,10 @@
     }
 
     /* ==== form section ===== */
+    .form_section {
+        padding: 0px 10px 0px 10px !important;
+    }
+
     .form_images {
         display: none !important;
     }
@@ -139,11 +143,104 @@
     .form-control {
         width: 100% !important;
     }
+
+    .form-check {
+        margin-top: 15px !important;
+    }
+
+    .form_icon .form-check-label {
+        font-size: 16px !important;
+
+    }
+
     /* ===== mobile view btn ====== */
-    .mobile_view_form_btn{
+    .mobile_view_form_btn {
         margin-top: 20px !important;
     }
 
+    /* ===== footer section ===== */
+    .footer_navbar {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .footer_div {
+        /* padding: 50px 100px 30px 20px !important; */
+        border-radius: 0px !important;
+    }
+
+    .footer_logo_images {
+        text-align: center !important;
+    }
+
+    .footer_navbar {
+        margin-top: 40px !important;
+    }
+
+    .footer_navbar .footer_text {
+        border: none !important;
+        background-color: none !important;
+        margin-top: 15px !important;
+        font-size: 16px !important;
+        margin-left: 0px !important;
+    }
+
+    .footer_imgages_icon1 {
+        display: block !important;
+    }
+
+    .footer_imgages_icon {
+        display: none !important;
+    }
+
+    .footer_main_text {
+        text-align: center !important;
+    }
+
+    .footer_details_area p {
+        font-size: 16px !important;
+    }
+
+    .footer_social_media {
+        padding-top: 10px !important;
+    }
+
+    .footer_social_media .footer_social_btn {
+        width: 100% !important;
+        padding: 30px !important;
+    }
+
+    .footer_social_btn .footer_email_btn {
+        width: 100% !important;
+        padding: 21px 25px 21px 25px !important;
+        margin-left: 0px !important;
+
+    }
+
+    .footer_social_btn .footer_subcribe_btn {
+        width: 100% !important;
+        padding: 21px 25px 21px 25px !important;
+        margin-top: 10px !important;
+
+    }
+    .footer_pricavacy_section {
+        text-align: center !important;
+    }
+    .footer_pricavacy_section .copt_right {
+        font-size: 16px !important;
+    }
+    .footer_pricavacy_section .privacy {
+        margin-left: 0px !important;
+        
+    }
+
+    /* ===== mobile view footer responsive ===== */
+    .footer_imgages_icon1 {
+        text-align: center !important;
+        padding-top: 30px !important;
+    }
 }
 
 /* ===== for tablet screen ===== */
@@ -158,6 +255,8 @@
     .main_card {
         margin-top: 20px !important;
     }
+
+
 
     /* ===== working section ===== */
     .conatact_btn .btn_contact {
@@ -205,8 +304,9 @@
         line-height: 28px !important;
         font-size: 20px !important;
     }
-     /* ===== mobile view btn ====== */
-     .mobile_view_form_btn{
+
+    /* ===== mobile view btn ====== */
+    .mobile_view_form_btn {
         margin-top: 20px !important;
     }
 }
