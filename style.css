@@ -614,11 +614,4 @@ color: var(--white-color) !important;
   color: var(--white-color) !important;
   margin-left: 20px !important;
   }
-  .footer_social_media {
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.5s ease-out; /* Smooth transition for visibility */
-  }
-  
-  .footer_social_media.animate__backInLeft {
-    opacity: 1; /* Make element visible when animation is applied */
-  }
+ 
