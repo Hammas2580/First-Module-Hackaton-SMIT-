@@ -50,10 +50,12 @@ header {
   line-height: 28px !important;
   text-align: center !important;
   color: var(--black-color) !important;
-
-
 }
-
+.btn:hover{
+  border-color: var(--white-color) !important;
+  background-color: var(--primary-color) !important;
+  
+}
 /* ===== hero_section ===== */
 .hero_section {
   padding-top: 180px !important;
@@ -98,6 +100,11 @@ header {
   font-size: 20px !important;
   line-height: 28px !important;
   align-items: center !important;
+}
+.hero_main_button:hover{
+  background-color: var(--primary-color) !important;
+  border-color: var(--black-color) !important;
+  color: var(--black-color) !important;
 }
 
 .hero_images img {
@@ -165,8 +172,12 @@ header {
   /* box-shadow: 0px 0px 20px var(--black-color) !important; */
   border-bottom-color: var(--black-color) !important;
   border-bottom-width: 8px !important;
+  transition: width 1ss 0s linear !important;
 
 
+}
+.main_card:hover {
+  transform: scale(00.9) !important;
 }
 
 .card-body .card-title {
@@ -453,6 +464,11 @@ header {
   font-size: 20px !important;
   border: none !important;
 }
+.form_btn_submit:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--black-color) !important;
+  color: var(--black-color) !important;
+}
 
 .form_images {
   display: flex !important;
@@ -597,4 +613,12 @@ color: var(--white-color) !important;
   line-height: 28px !important;
   color: var(--white-color) !important;
   margin-left: 20px !important;
+  }
+  .footer_social_media {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-out; /* Smooth transition for visibility */
+  }
+  
+  .footer_social_media.animate__backInLeft {
+    opacity: 1; /* Make element visible when animation is applied */
   }
